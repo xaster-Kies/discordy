@@ -9,7 +9,7 @@ import CallIcon from '@material-ui/icons/Call'
 import { Avatar } from '@material-ui/core'
 import MicIcon from '@material-ui/icons/Mic'
 import HeadsetIcon from '@material-ui/icons/Headset'
-import SettingIcon from '@material-ui/icons/Call'
+import SettingIcon from '@material-ui/icons/Settings'
 
 
 
