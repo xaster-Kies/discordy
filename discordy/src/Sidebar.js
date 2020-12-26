@@ -3,6 +3,8 @@ import './Sidebar.css'
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore'
 import AddIcon from '@material-ui/icons/Add'
 import SidebarChannel from './SidebarChannel'
+import SignalCellular from '@material-ui/icons/SignalCellular3Bar'
+
 
 
 function Sidebar() {
@@ -27,6 +29,14 @@ function Sidebar() {
                 <SidebarChannel/>
                 <SidebarChannel/>
                 <SidebarChannel/>
+            </div>
+
+            <div className="sidebar__voice">
+                <SignalCellular className="sidebar__voiceIcon"
+                fontSize="large"/>
+                <div className="sidebar__voicei">
+                    <h3>Voice Connected</h3>
+                </div>
             </div>
             </div>
             
