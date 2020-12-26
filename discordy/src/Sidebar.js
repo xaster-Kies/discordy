@@ -6,6 +6,7 @@ import SidebarChannel from './SidebarChannel'
 import SignalCellular from '@material-ui/icons/SignalCellular3Bar'
 import InfoOutlineIcon from '@material-ui/icons/Info'
 import CallIcon from '@material-ui/icons/Call'
+import { Avatar } from '@material-ui/core'
 
 
 
@@ -53,6 +54,9 @@ function Sidebar() {
             
             <div className="sidebar__profile">
                 <Avatar/>
+                <div className="sidebar__profile__Info">
+                    <h3>Samuel Tiokeng</h3>
+                </div>
             </div>
         </div>
     )
