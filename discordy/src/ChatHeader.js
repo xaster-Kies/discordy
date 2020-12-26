@@ -14,7 +14,7 @@ function ChatHeader() {
         <div className="chatHeader">
             <div className="chatHeader__left">
                 <span className="chatHeader__hash">#</span>
-                    Test Channel Name
+                    <h3>TestChannel</h3>
             </div>
             <div className="chatHeader__right">
                <NotificationsIcon/>
