@@ -1,5 +1,6 @@
 import React from 'react'
 import './Sidebar.css'
+import ExpandMoreIcon from '@material-ui/icons/ExpandMore'
 
 function Sidebar() {
     return (
@@ -7,6 +8,7 @@ function Sidebar() {
             
             <div className="sidebar__top">
                 <h3>Discordy</h3>
+                <ExpandMoreIcon/>
             </div>
         </div>
     )
