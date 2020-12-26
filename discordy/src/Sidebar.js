@@ -1,6 +1,8 @@
 import React from 'react'
 import './Sidebar.css'
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore'
+import AddIcon from '@material-ui/icons/Add'
+
 
 function Sidebar() {
     return (
