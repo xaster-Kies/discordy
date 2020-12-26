@@ -61,6 +61,10 @@
     color: #4fb185;
 }
 
+.sidebar__voiceInfo > h4 {
+    font-size: smaller;
+}
+
 .sidebar__voiceIcons > .MuiSvgIcon-root {
     padding: 10px;
 }
