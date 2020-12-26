@@ -16,17 +16,3 @@
     font-size: 30px;
     padding: 8px;
 }
-
-.sidebar__voice {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: gray;
-    padding: 10px;
-    border-top: 1px solid gray;
-}
-
-.sidebar__voiceInfo {
-    flex: 1;
-    padding: 10px;
-}

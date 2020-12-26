@@ -34,19 +34,21 @@ function Sidebar() {
                 <SidebarChannel/>
                 <SidebarChannel/>
             </div>
+            </div>
 
             <div className="sidebar__voice">
                 <SignalCellular className="sidebar__voiceIcon"
                 fontSize="large"/>
-                <div className="sidebar__voicei">
+
+                <div className="sidebar__voiceInfo">
                     <h3>Voice Connected</h3>
                     <p>Stream</p>
                 </div>
+                
                 <div className="sidebar__voiceIcons">
                     <InfoOutlineIcon/>
                     <CallIcon/>
                 </div>
-            </div>
             </div>
             
         </div>
