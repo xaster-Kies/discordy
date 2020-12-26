@@ -4,6 +4,9 @@ import NotificationsIcon from "@material-ui/icons/Notifications"
 import EditLocationRoundedIcon from "@material-ui/icons/EditLocationRounded"
 import PeopleAltRoundedIcon from "@material-ui/icons/PeopleAlt"
 import SearchRoundedIcon from "@material-ui/icons/SearchRounded"
+import SendRoundedIcon from "@material-ui/icons/SendRounded"
+import HelpRoundIcon from "@material-ui/icons/HelpRounded"
+
 
 
 function ChatHeader() {
@@ -22,6 +25,9 @@ function ChatHeader() {
                    <input type="text" placeholder="Search"/>
                    <SearchRoundedIcon></SearchRoundedIcon>
                </div>
+
+               <SendRoundedIcon/>
+               <HelpRoundIcon/>
             </div>
         </div>
     )
