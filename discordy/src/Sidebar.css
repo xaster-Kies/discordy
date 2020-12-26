@@ -21,5 +21,19 @@
 }
 
 .sidebar__addChannel {
-    cursor: white;
+    color: white;
+}
+
+.sidebar__channelsHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #2f3135;
+    color: grey;
+}
+
+.sidebar__header {
+    display: flex;
+    align-items: center;
 }

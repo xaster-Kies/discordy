@@ -16,12 +16,14 @@ function Sidebar() {
             <div className="sidebar__channels">
                 <div className="sidebar__channelsHeader">
                     <div className="sidebar__header">
-                        <ExpandMoreIcon/>
                         <h4>Text Channels</h4>
                     </div>
 
                     <AddIcon className="sidebar__addChannel"/>
                 </div>
+            </div>
+            <div className="sidebar_channelsList">
+                <SidebarChannel/>
             </div>
         </div>
     )
