@@ -57,11 +57,11 @@
     color: #4fb185;
 }
 
-.sidebar__voiceIcon > h3 {
+.sidebar__voiceInfo > h3 {
     color: #4fb185;
 }
 
-.sidebar__voiceInfo > h4 {
+.sidebar__voiceInfo > p {
     font-size: smaller;
 }
 
