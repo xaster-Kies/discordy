@@ -10,6 +10,17 @@ function Sidebar() {
                 <h3>Discordy</h3>
                 <ExpandMoreIcon/>
             </div>
+
+            <div className="sidebar__channels">
+                <div className="sidebar__channelsHeader">
+                    <div className="sidebar__header">
+                        <ExpandMoreIcon/>
+                        <h4>Text Channels</h4>
+                    </div>
+
+                    <AddIcon className="sidebar__addChannel"/>
+                </div>
+            </div>
         </div>
     )
 }
