@@ -7,6 +7,12 @@ import SignalCellular from '@material-ui/icons/SignalCellular3Bar'
 import InfoOutlineIcon from '@material-ui/icons/Info'
 import CallIcon from '@material-ui/icons/Call'
 import { Avatar } from '@material-ui/core'
+import MicIcon from '@material-ui/icons/Mic'
+import HeadsetIcon from '@material-ui/icons/Headset'
+import SettingIcon from '@material-ui/icons/Call'
+
+
+
 
 
 
@@ -56,6 +62,13 @@ function Sidebar() {
                 <Avatar/>
                 <div className="sidebar__profile__Info">
                     <h3>Samuel Tiokeng</h3>
+                    <p>#thisismyid</p>
+                </div>
+
+                <div className="sidebar__profile__Icons">
+                    <MicIcon/>
+                    <HeadsetIcon/>
+                    <SettingIcon/>
                 </div>
             </div>
         </div>
