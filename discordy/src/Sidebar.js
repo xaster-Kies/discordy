@@ -44,13 +44,16 @@ function Sidebar() {
                     <h3>Voice Connected</h3>
                     <p>Stream</p>
                 </div>
-                
+
                 <div className="sidebar__voiceIcons">
                     <InfoOutlineIcon/>
                     <CallIcon/>
                 </div>
             </div>
             
+            <div className="sidebar__profile">
+                <Avatar/>
+            </div>
         </div>
     )
 }
