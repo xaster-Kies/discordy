@@ -6,7 +6,7 @@
     padding: 10px;
 }
 
-.chatHeader_hash {
+.chatHeader__hash {
     color: gray;
     font-size: 30px;
     padding: 10px;
@@ -28,4 +28,25 @@
 .chatHeader__right > .MuiSvgIcon-root {
     padding: 5px;
     cursor: pointer;
+}
+
+.chatHeader__right > .MuiSvgIcon-root:hover {
+    color: white;
+}
+
+.chatHeader__search {
+    display: flex;
+    align-items: center;
+    color: gray;
+    background-color: #2f3135;
+    border-radius: 3px;
+    padding: 3px;
+
+}
+
+.chatHeader__search > input {
+    background: transparent;
+    outline-width: 0;
+    color: white;
+    border: none;
 }
