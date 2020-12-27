@@ -18,6 +18,10 @@ function Chat() {
                     <input type="text" placeholder={`Message #TESTIMONIAL`}/>
                     <button className="chat__inputButton" type="submit">Send Message</button>
                 </form>
+
+                <div className="chat__inputIcons">
+                    
+                </div>
             </div>
         </div>
     )
