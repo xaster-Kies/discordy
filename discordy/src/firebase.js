@@ -8,3 +8,6 @@ const firebaseConfig = {
     measurementId: "G-ESKYHTRWGL"
   };
   
+  const firebaseApp = firebase.initializeApp(firebaseConfig);
+  const db = firebaseApp.firestore();
+  const auth = firebase.auth();
