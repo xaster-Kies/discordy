@@ -4,6 +4,7 @@ import './App.css';
 import Sidebar from './Sidebar';
 import Chat from './Chat';
 import { selectUser} from './features/userSlice';
+import Login from './Login';
 
 function App() {
   const user = useSelector(selectUser);
@@ -15,7 +16,7 @@ function App() {
       <Chat/>
       </>
     ): (
-      <h2>You need to Login</h2>
+      <Login/>
     )}
       
     </div>
