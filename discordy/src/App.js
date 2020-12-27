@@ -1,9 +1,9 @@
-import React from 'react';
-import {useSelector} from "react-redux"
+import React, { useEffect } from 'react';
+import {useDispatch, useSelector} from "react-redux"
 import './App.css';
 import Sidebar from './Sidebar';
 import Chat from './Chat';
-import { selectUser} from './features/userSlice';
+import { login, selectUser, logout} from './features/userSlice';
 import Login from './Login';
 import { auth } from './firebase';
 
@@ -15,6 +15,12 @@ function App() {
     auth.onAuthStateChanged((authUser) => {
       if (authUser) {
         //user logged in
+        dispatch(login({
+          uid: authUser.uid,
+          photo: authUser.photoURL,
+          email: authUser.email,
+          displayName: authUser.displayName,
+        }))
       } else {
         //user is logged out
       }
