@@ -1,6 +1,6 @@
 import { createSlice } from '@reduxjs/toolkit';
 
-export const userSlice = createSlice({
+export const appSlice = createSlice({
   name: 'app',
   initialState: {
     channelId: null,
