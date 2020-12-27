@@ -1,3 +1,5 @@
+import firebase from 'firebase'
+
 const firebaseConfig = {
     apiKey: "AIzaSyAnM2CTCq5DSABcQbD93gkSVYTDdGZImeM",
     authDomain: "discordy-79262.firebaseapp.com",
