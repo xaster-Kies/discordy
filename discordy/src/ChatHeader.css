@@ -12,7 +12,8 @@
     padding: 10px;
 }
 
-.chatHeader__left > h3 {
+.chatHeader__left > span > h3 {
+    
     display: flex;
     align-items: center;
     color: white;

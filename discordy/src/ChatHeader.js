@@ -13,8 +13,13 @@ function ChatHeader() {
     return (
         <div className="chatHeader">
             <div className="chatHeader__left">
-                <span className="chatHeader__hash">#</span>
-                    <h3>TestChannel</h3>
+                
+                <h3>
+                    <span className="chatHeader__hash"># 
+                    </span>
+                    TestChannel
+                </h3>
+                
             </div>
             <div className="chatHeader__right">
                <NotificationsIcon/>
