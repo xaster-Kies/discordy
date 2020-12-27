@@ -4,7 +4,7 @@ import ChatHeader from './ChatHeader'
 import AddCircleIcon from '@material-ui/icons/AddCircle'
 import CardGiftIcon from '@material-ui/icons/CardGiftcard'
 import GifIcon from '@material-ui/icons/Gif'
-import EmojiEmotionIcon from '@material-ui/icons/EmojiEmotions'
+import EmojiEmotionsIcon from '@material-ui/icons/EmojiEmotions'
 
 
 
