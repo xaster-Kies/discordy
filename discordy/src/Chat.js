@@ -16,7 +16,7 @@ function Chat() {
                 <AddCircleIcon fontSize="large"/>
                 <form>
                     <input type="text" placeholder={`Message #TESTIMONIAL`}/>
-                    <button></button>
+                    <button className="chat__inputButton" type="submit">Send Message</button>
                 </form>
             </div>
         </div>
