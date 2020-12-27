@@ -15,7 +15,7 @@ function Chat() {
             <ChatHeader/>
 
             <div className="chat__messages">
-
+                <Messages/>
             </div>
 
             <div className="chat__input">
