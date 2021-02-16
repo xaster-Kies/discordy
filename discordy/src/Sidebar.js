@@ -32,7 +32,7 @@ function Sidebar() {
             <div className="sidebar__channels">
                 <div className="sidebar__channelsHeader">
                     <div className="sidebar__header">
-                        <h4>Text Channels</h4>
+                        <h4>Text Channel</h4>
                     </div>
 
                     <AddIcon className="sidebar__addChannel"/>
