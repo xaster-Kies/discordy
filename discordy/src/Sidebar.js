@@ -13,12 +13,6 @@ import SettingIcon from '@material-ui/icons/Settings'
 import { useSelector } from 'react-redux'
 import { selectUser } from './features/userSlice'
 
-
-
-
-
-
-
 function Sidebar() {
     const user =  useSelector(selectUser);
     return (
@@ -63,8 +57,8 @@ function Sidebar() {
             <div className="sidebar__profile">
                 <Avatar src={user.photo}/>
                 <div className="sidebar__profile__Info">
-                    <h3>{user.dispalyName}</h3>
-                    <p>#thisismyid</p>
+                    <h3>{user.displayName}</h3>
+                    <p>#{user.uid}</p>
                 </div>
 
                 <div className="sidebar__profile__Icons">
